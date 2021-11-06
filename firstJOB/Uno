@@ -1,0 +1,11 @@
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int a = 0;
+  for(int i = 0; i<10000; i++){
+    Serial.println (a++);
+    };
+}
