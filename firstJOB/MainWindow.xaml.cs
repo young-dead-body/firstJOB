@@ -24,5 +24,11 @@ namespace firstJOB
         {
             InitializeComponent();
         }
+
+        private void Nap() 
+        {
+            //Arduino arduino = new Arduino();
+            //listBox.Items.Add(arduino.name);
+        }
     }
 }

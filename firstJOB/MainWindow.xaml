@@ -11,7 +11,10 @@
             <ColumnDefinition Width="4*"/>
             <ColumnDefinition Width="393*"/>
         </Grid.ColumnDefinitions>
-        <ProgressBar Grid.Column="1" HorizontalAlignment="Left" Height="10" Margin="10,400,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label" Content="То что нам вернула ардуинка" Grid.Column="1" HorizontalAlignment="Left" Margin="29,37,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBox" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="34,68,0,0" VerticalAlignment="Top" Width="172"/>
+        <ProgressBar Grid.Column="1" HorizontalAlignment="Left" Height="11" Margin="34,345,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label_Copy" Content="Сколько нам вернула ардуинка" Grid.Column="1" HorizontalAlignment="Left" Margin="29,314,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
